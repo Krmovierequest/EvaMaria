@@ -735,7 +735,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("ss Name Se Koi Movie Neh Mill Raha. Niche Movie Name Aa Raha Hai Dekh Ke Likho 👇👇")
+        k = await msg.reply("Iss Name Se Koi Movie Neh Mill Raha. Niche Movie Name Aa Raha Hai Dekh Ke Likho 👇👇")
         await asyncio.sleep(8)
         await k.delete()
         return
